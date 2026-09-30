@@ -1,0 +1,4 @@
+service:
+  name: goldenpathsite2
+  owner: group:default/kubecon-squad
+  environment: development

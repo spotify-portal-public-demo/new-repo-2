@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: goldenpathsite2
+  title: goldenpathsite2
+  description: Created with Spotify Portal at KubeCon
+  annotations:
+    github.com/project-slug: spotify-portal-public-demo/new-repo-2
+    backstage.io/source-location: url:https://github.com/spotify-portal-public-demo/new-repo-2
+  tags:
+    - kubecon
+    - scaffolder-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/kubecon-squad
