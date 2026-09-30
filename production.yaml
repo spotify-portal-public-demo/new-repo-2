@@ -1,0 +1,5 @@
+service: goldenpathsite2
+owner: group:default/kubecon-squad
+environment: production
+replicas: 3
+readinessProbe: /health
